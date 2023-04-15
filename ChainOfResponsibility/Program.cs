@@ -25,7 +25,7 @@ namespace ChainOfResponsibility
     class Expense
     {
         public string Detail { get; set; }
-        public decimal Amount{ get; set; }
+        public decimal Amount { get; set; }
     }
     abstract class ExpenseHanlerBase
     {
